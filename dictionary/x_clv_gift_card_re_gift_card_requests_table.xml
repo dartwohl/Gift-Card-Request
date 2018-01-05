@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Gift Card Requests Table" max_length="40" name="x_clv_gift_card_re_gift_card_requests_table" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:var cDate = new GlideDateTime(); cDate = cDate.getDate(); cDate;" label="Date" max_length="40" name="u_date_submitted_by" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email_submitted_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ext" max_length="40" name="u_ext_submitted_by" type="string"/>
+        <element label="Gift Card Pick Up By" max_length="32" name="u_giftcard_pickup_by" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="32" name="u_name_submittedby" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="32" name="u_name_submitted_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Ext" max_length="40" name="u_pickupby_ext" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="100 Cars" label="Vertical" max_length="40" name="u_vertical_submitted_by" type="string">
+            <choice>
+                <element label="100 Cars" sequence="0" value="100 Cars"/>
+                <element label="120 New Cars" sequence="1" value="120 New Cars"/>
+                <element label="130 DealerRater" sequence="2" value="130 DealerRater"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_giftcard_pickup_by"/>
+        </index>
+        <index name="index2">
+            <element name="u_name_submitted_by"/>
+        </index>
+        <index name="index3">
+            <element name="u_name_submittedby"/>
+        </index>
+    </element>
+</database>

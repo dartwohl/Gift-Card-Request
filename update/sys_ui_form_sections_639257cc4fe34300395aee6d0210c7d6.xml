@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="639257cc4fe34300395aee6d0210c7d6" sys_domain="global" table="x_clv_gift_card_re_gift_card_requests_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>dartwohl</sys_created_by>
+            <sys_created_on>2018-01-04 17:13:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ab9257cc4fe34300395aee6d0210c7d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clv_gift_card_re_gift_card_requests_table" name="x_clv_gift_card_re_gift_card_requests_table" sys_domain="global" view="Default view">639257cc4fe34300395aee6d0210c7d6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_clv_gift_card_re_gift_card_requests_table" sys_domain="global" view="Default view">fa31db8c4fe34300395aee6d0210c7b7</sys_ui_section>
+            <sys_updated_by>dartwohl</sys_updated_by>
+            <sys_updated_on>2018-01-04 17:13:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>dartwohl</sys_created_by>
+            <sys_created_on>2018-01-04 17:13:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a79257cc4fe34300395aee6d0210c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clv_gift_card_re_gift_card_requests_table" name="x_clv_gift_card_re_gift_card_requests_table" sys_domain="global" view="Default view">639257cc4fe34300395aee6d0210c7d6</sys_ui_form>
+            <sys_ui_section caption="Form Submitted By" display_value="Form Submitted By" name="x_clv_gift_card_re_gift_card_requests_table" sys_domain="global" view="Default view">279257cc4fe34300395aee6d0210c7d5</sys_ui_section>
+            <sys_updated_by>dartwohl</sys_updated_by>
+            <sys_updated_on>2018-01-04 17:13:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>dartwohl</sys_created_by>
+            <sys_created_on>2018-01-04 19:41:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>42543b004f674300395aee6d0210c70d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clv_gift_card_re_gift_card_requests_table" name="x_clv_gift_card_re_gift_card_requests_table" sys_domain="global" view="Default view">639257cc4fe34300395aee6d0210c7d6</sys_ui_form>
+            <sys_ui_section caption="Employee Information (Internal use only)" display_value="Employee Information (Internal use only)" name="x_clv_gift_card_re_gift_card_requests_table" sys_domain="global" view="Default view">86543b004f674300395aee6d0210c70a</sys_ui_section>
+            <sys_updated_by>dartwohl</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:41:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_clv_gift_card_re_gift_card_requests_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>dartwohl</sys_created_by>
+            <sys_created_on>2018-01-04 17:13:48</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>639257cc4fe34300395aee6d0210c7d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_clv_gift_card_re_gift_card_requests_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gift Card Requests" source="x_clv_gift_card_re">bd11d38c4fe34300395aee6d0210c721</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Gift Card Requests">bd11d38c4fe34300395aee6d0210c721</sys_scope>
+            <sys_update_name>sys_ui_form_sections_639257cc4fe34300395aee6d0210c7d6</sys_update_name>
+            <sys_updated_by>dartwohl</sys_updated_by>
+            <sys_updated_on>2018-01-04 17:13:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Employee Information (Internal use only)" section_id="86543b004f674300395aee6d0210c70a" sys_domain="global" table="x_clv_gift_card_re_gift_card_requests_table" version="3" view="">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Employee Information (Internal use only)</caption>
+            <header>false</header>
+            <name>x_clv_gift_card_re_gift_card_requests_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dartwohl</sys_created_by>
+            <sys_created_on>2018-01-04 19:41:09</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>86543b004f674300395aee6d0210c70a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Employee Information (Internal use only)</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gift Card Requests" source="x_clv_gift_card_re">bd11d38c4fe34300395aee6d0210c721</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Gift Card Requests">bd11d38c4fe34300395aee6d0210c721</sys_scope>
+            <sys_update_name>sys_ui_section_86543b004f674300395aee6d0210c70a</sys_update_name>
+            <sys_updated_by>dartwohl</sys_updated_by>
+            <sys_updated_on>2018-01-04 19:41:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

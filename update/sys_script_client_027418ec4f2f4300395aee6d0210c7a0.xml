@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_giftcard_pickup_by</field>
+        <global>true</global>
+        <messages/>
+        <name>Populate Pick Up By</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+  if(isLoading){ return; }
+
+	var userRecord = g_form.getReference('u_giftcard_pickup_by', setEmail);
+
+ function setEmail(userRecord) {
+
+     g_form.setValue('u_pickupby_ext', userRecord.phone);
+	 
+}
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>dartwohl</sys_created_by>
+        <sys_created_on>2018-01-05 16:42:13</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>027418ec4f2f4300395aee6d0210c7a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate Pick Up By</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gift Card Requests" source="x_clv_gift_card_re">bd11d38c4fe34300395aee6d0210c721</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Gift Card Requests">bd11d38c4fe34300395aee6d0210c721</sys_scope>
+        <sys_update_name>sys_script_client_027418ec4f2f4300395aee6d0210c7a0</sys_update_name>
+        <sys_updated_by>dartwohl</sys_updated_by>
+        <sys_updated_on>2018-01-05 16:42:13</sys_updated_on>
+        <table>x_clv_gift_card_re_gift_card_requests_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
